@@ -1,0 +1,28 @@
+{
+  "name": "react-router-example",
+  "version": "1.0.0",
+  "description": "Getting started with React Router",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "cross-env": "5.2.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-router-dom": "5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "cross-env NODE_PATH=src react-scripts start",
+    "build": "cross-env NODE_PATH=src react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

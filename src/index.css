@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+.active {
+  color: red;
+  font-size: 2em;
+  background-color: #a5d8ff;
+}
